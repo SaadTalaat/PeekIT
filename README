@@ -1,7 +1,7 @@
 PeekIT
 ========
 
-	PeekIT is a Command Line Packet sniffer. it uses Packet capturing library "libpcap"
+	PeekIT is (*nix software) a Command Line Packet sniffer. it uses Packet capturing library "libpcap"
 
 How is it built:
 =================
