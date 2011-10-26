@@ -1,0 +1,21 @@
+PeekIT
+========
+
+	PeekIT is a Command Line Packet sniffer. it uses Packet capturing library "libpcap"
+
+How is it built:
+=================
+	PeekIT uses the header (glocal structures) to applicate several casts and to control global variable
+	it starts by collecting local machine's and network's information
+	local_info.c contains several functions for obtaining the local machine's info
+	packet_cap.c contains a packet grabbing and casting functionalities. also it might be used for screening the incoming and outgoing packets and limiting them to gateway if you dont wish to receive packets from any host on your network. it warns you with a illegal connection in case you recieved one.
+	
+To be supported
+================
+	PeekIT does not yet support IPv6 and doesn't have a functional screening modes yet.
+
+Notes
+======
+	You should compile this code with a -lpcap
+	This Software is CATReloaded project
+	http://catreloaded.net
